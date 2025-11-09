@@ -104,8 +104,8 @@ function getCatppuccinTheme(variant, isLight = false) {
     const variantData = CatppuccinVariants[variant]
     if (!variantData) return null
 
-    const baseColors = isLight ? CatppuccinLatte : CatppuccinMocha
-    const accentColors = isLight ? variantData.light : variantData.dark
+    const baseColors = isLight ?   CatppuccinMocha : CatppuccinLatte
+    const accentColors = isLight ?  variantData.dark : variantData.light
 
     return Object.assign({
         name: `${variantData.name}${isLight ? ' Light' : ''}`
@@ -521,7 +521,7 @@ function isCatppuccinVariant(themeName) {
 }
 
 function getAvailableThemes(isLight = false) {
-    return isLight ? StockThemes.LIGHT : StockThemes.DARK
+    return isLight ? StockThemes.DARK : StockThemes.LIGHT
 }
 
 function getThemeByName(themeName, isLight = false) {

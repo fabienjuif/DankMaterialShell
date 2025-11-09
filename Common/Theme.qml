@@ -156,7 +156,7 @@ Singleton {
     }
 
     function getMatugenColor(path, fallback) {
-        const colorMode = (typeof SessionData !== "undefined" && SessionData.isLightMode) ? "light" : "dark"
+        const colorMode = (typeof SessionData !== "undefined" && SessionData.isLightMode) ? "dark" : "light"
         let cur = matugenColors && matugenColors.colors && matugenColors.colors[colorMode]
         for (const part of path.split(".")) {
             if (!cur || typeof cur !== "object" || !(part in cur))

@@ -3,7 +3,7 @@ import QtQuick.Controls
 import QtQuick.Effects
 import QtQuick.Shapes
 import Quickshell
-import Quickshell.Hyprland
+// import Quickshell.Hyprland
 import Quickshell.I3
 import Quickshell.Io
 import Quickshell.Services.Mpris

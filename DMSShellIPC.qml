@@ -1,7 +1,7 @@
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import Quickshell.Hyprland
+// import Quickshell.Hyprland
 import qs.Common
 import qs.Services
 

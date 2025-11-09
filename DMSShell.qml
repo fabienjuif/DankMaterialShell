@@ -22,7 +22,7 @@ import qs.Modules.ProcessList
 import qs.Modules.Settings
 import qs.Modules.DankBar
 import qs.Modules.DankBar.Popouts
-import qs.Modules.HyprWorkspaces
+// import qs.Modules.HyprWorkspaces
 import qs.Modules.Plugins
 import qs.Services
 
@@ -72,10 +72,10 @@ Item {
 
         property var currentPosition: SettingsData.dankBarPosition
         property bool initialized: false
-        property var hyprlandOverviewLoaderRef: hyprlandOverviewLoader
+        // property var hyprlandOverviewLoaderRef: hyprlandOverviewLoader
 
         sourceComponent: DankBar {
-            hyprlandOverviewLoader: dankBarLoader.hyprlandOverviewLoaderRef
+            // hyprlandOverviewLoader: dankBarLoader.hyprlandOverviewLoaderRef
 
             onColorPickerRequested: {
                 if (colorPickerModal.shouldBeVisible) {
@@ -577,8 +577,8 @@ Item {
     LazyLoader {
         id: hyprlandOverviewLoader
         active: CompositorService.isHyprland
-        component: HyprlandOverview {
-            id: hyprlandOverview
-        }
+        // component: HyprlandOverview {
+        //     id: hyprlandOverview
+        // }
     }
 }

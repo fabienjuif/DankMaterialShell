@@ -1,5 +1,5 @@
 import QtQuick
-import Quickshell.Hyprland
+// import Quickshell.Hyprland
 import qs.Common
 import qs.Modules.Plugins
 import qs.Services

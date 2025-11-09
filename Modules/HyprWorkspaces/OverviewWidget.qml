@@ -3,7 +3,7 @@ import QtQuick.Effects
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Wayland
-import Quickshell.Hyprland
+// import Quickshell.Hyprland
 import qs.Common
 import qs.Services
 import qs.Widgets

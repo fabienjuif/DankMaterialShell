@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import Quickshell
-import Quickshell.Hyprland
+// import Quickshell.Hyprland
 import Quickshell.Wayland
 import Quickshell.Widgets
 import qs.Common
